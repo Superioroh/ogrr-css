@@ -1,0 +1,70 @@
++++Headers dark-green color:
+		.siterulesh1 {
+		color: #29521C !important;
+			border-style: none !important; }
+
+
+
+
+++Smaller headers used before paragraphs
+	.siterules-h {
+	text-decoration: none;
+	color: #29521C !important;
+	border-style: none !important;
+	font-family: Geneva, Arial, Helvetica, sans-serif !important;
+	margin-top: 0em !important;
+	margin-bottom: -7 !important;
+	padding-bottom: 0em !important;
+	padding-left: 1em !important;
+}
+
+
+++++Green links in Paragraph:
+.prules a { color: #29521C !important ; font-weight: bold; text-decoration: none !important; }
+
+
+
+++Lists used for Rules:
+#list2 {  }
+#list2 ol { font-style:italic; font-family: Geneva, Arial, Helvetica, sans-serif !important; font-size:1.5em !important; color: #29521C !important;  }
+#list2 ol li { margin-bottom: -1em !important; padding-bottom: 0em !important; }
+#list2 ol li a { color: #29521C !important ; font-weight: bold; }
+#list2 ol li p { padding:6px; font-style:normal !important; font-family: Geneva, Arial, Helvetica, sans-serif !important; font-size: 0.8em !important; color: black; }
+#list2 ol li p em { display:block !important; }
+
+with HTML:
+		<div id="list2">
+      	<ol>
+      <li><p><em>Thou shall enjoy freedom of speech.</em>So long as speech is lawful, it is allowed.  There are no other restrictions on statements or discussion.  You are free to discuss any topic, including unlawful activity, so long as the purpose is not to facilitate unlawful activity on this forum.  See <a href="http://en.wikipedia.org/wiki/United_States_free_speech_exceptions">examples of unlawful speech</a>.</p></li>
+
+      <li><p><em>Thou shall enjoy freedom of commerce.</em>So long as a transaction is lawful, it is allowed.  There are no other restrictions on the types of goods and services that can be offered, and there are no other restrictions on the systems of payment, currency or value exchange that may be used.</p></li>
+  </ol>
+
+
+
+
+
+ ++ List at Trading Rules:
+  .list4 ol li {
+     padding: 0.1em !important;
+    list-style: decimal !important;
+    margin-bottom: -16px !important;
+    .list4 li { list-style-type: decimal;  }
+}
+
+with HTML:
+<h4 class=siterules-k>Topics titles:</h4>
+<div class=list4>	
+	<ul>
+  <li>
+    <p>No more than 3 characters on either side or in the middle of the thread title / description.</p>
+  </li>
+  <li>
+    <p>No repetive words / letters.</p>
+  </li> 
+  <li>
+    <p>No links of any kind</p>
+  </li>
+</ul></div> 
+<br>
+
